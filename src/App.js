@@ -1,5 +1,12 @@
-function App() {
-  return <h1>Quiz of Thrones</h1>;
-}
+import React from "react";
+import HomePage from "./Components/HomePage/HomePage";
+
+const App = () => {
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
+};
 
 export default App;
