@@ -1,0 +1,58 @@
+.heroMain {
+  background-color: var(--black-color);
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  color: var(--text-color);
+}
+.heroContentWrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroContent {
+  width: 60%;
+}
+.heroContent h1 {
+  font-size: 5.5rem;
+  font-family: var(--heading-font);
+}
+.heroImageWrapper {
+  width: 50%;
+  height: 100%;
+}
+.heroImage {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+  .heroMain {
+    flex-direction: column-reverse;
+  }
+  .heroContentWrapper {
+    width: 100%;
+    height: 100%;
+  }
+  .heroContent {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .heroImageWrapper {
+    width: 100%;
+    height: 100%;
+  }
+  .heroImage {
+    background-size: contain;
+  }
+  .heroContent h1 {
+    font-size: 3.5rem;
+  }
+}
