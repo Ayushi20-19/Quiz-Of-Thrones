@@ -1,0 +1,26 @@
+footer {
+  width: 100%;
+  background-color: var(--black-color);
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  text-align: center;
+  color: var(--text-color);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--white-color);
+}
+.footer-heading {
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+.footer-content {
+  width: 70%;
+  margin: auto;
+}
+.footer-links span {
+  margin: 1rem;
+}
+.footer-copyright {
+  margin: 2rem;
+  font-size: 0.7rem;
+}
